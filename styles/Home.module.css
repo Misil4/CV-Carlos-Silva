@@ -6,10 +6,12 @@
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
+  color: #eaeaea;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: fixed;
 }
 
 .footer {
@@ -113,4 +115,9 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.canvas {
+  display: block;
+  vertical-align: bottom;
 }
