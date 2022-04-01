@@ -4,18 +4,28 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Particles from 'react-tsparticles';
+import { options } from '../animation/animation'
 
 
-export default class Studies extends React.Component {
-    render() {
-        return (
-            <div>
+const Studies = props => {
+    const particlesInit = (main) => {
+        console.log(main);
+    
+        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+      };
+    
+      const particlesLoaded = (container) => {
+        console.log(container);
+      };
+  return <div>
+       <Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={options} />
                 <Accordion>
-                    <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
-                    >
+                    <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-header">
                         <Typography>Hola</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
@@ -25,7 +35,7 @@ export default class Studies extends React.Component {
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
-            </div>
-        )
-    }
-}
+            </div>;
+};
+
+export default Studies;
