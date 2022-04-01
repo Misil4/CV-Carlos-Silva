@@ -6,11 +6,12 @@
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
+  color: #eaeaea;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 2;
+  position: fixed;
 }
 
 .footer {
@@ -121,4 +122,8 @@
 .name:active {
   color: #D22B2B;
   border-color: #D22B2B;
+}
+.canvas {
+  display: block;
+  vertical-align: bottom;
 }
