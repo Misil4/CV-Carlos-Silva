@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 .footer {
@@ -113,4 +114,11 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.name:hover,
+.name:focus,
+.name:active {
+  color: #D22B2B;
+  border-color: #D22B2B;
 }
