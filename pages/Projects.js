@@ -20,12 +20,12 @@ const Projects = () => {
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={options} />
-            <div className={styles.main} style={{ right: "30vh" }}>
+            <div className={styles.main} style={{ }}>
                 <Typography variant="h1" component="div">Projects</Typography>
                 <div className={styles.description} >
                     <p>These are my best projects by the moment but in my <a id="repo" onMouseLeave={() => document.getElementById("repo").style.color = null} onMouseOver={() => document.getElementById("name").style.color = "red"} href="https://github.com/Misil4">github</a> profile there are more </p>
                 </div>
-                <Box sx={{ flexGrow: 1 }}>
+                <Box sx={{ display : "flex",justifyContent : "center",alignContent : "center" }}>
                     <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                         <Grid item xs={2} sm={3} md={3} >
                             <Typography variant="h5" component="div" className={styles.project_title}>K-Berry</Typography>
