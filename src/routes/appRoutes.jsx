@@ -2,7 +2,7 @@ import React,{FC} from "react";
 import { Routes,Route } from 'react-router-dom';
 import About from '../components/about'
 import Home from '../components/index'
-import Projects from "../components/Projects";
+import Projects from "../components/projects";
 
 const AppRoutes = () => {
     return (
