@@ -1,14 +1,14 @@
 import './App.css'
-import { BrowserRouter } from 'react-router-dom'
 import AppRoutes from './routes/appRoutes'
 import './fonts/In_your_face_joffrey.ttf';
+import { HashRouter } from 'react-router-dom';
 
 function App() {
 
   return (
-   <BrowserRouter>
+   <HashRouter>
    <AppRoutes />
-   </BrowserRouter>
+   </HashRouter>
   )
 }
 
