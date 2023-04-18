@@ -23,7 +23,7 @@ const Projects = () => {
             <div className="main" style={{ }}>
                 <Typography variant="h1" component="div">Projects</Typography>
                 <div className="description" >
-                    <p>These are my best projects by the moment but in my <a id="repo" onMouseLeave={() => document.getElementById("repo").style.color = null} onMouseOver={() => document.getElementById("name").style.color = "red"} href="https://github.com/Misil4">github</a> profile there are more </p>
+                    <p>These are my best projects by the moment but in my <a id="repo" href="https://github.com/Misil4">github</a> profile there are more </p>
                 </div>
                 <Box sx={{ display : "flex",justifyContent : "center",alignContent : "center" }}>
                     <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
