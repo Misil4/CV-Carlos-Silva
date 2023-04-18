@@ -28,7 +28,7 @@ const About = () => {
             <div style={{ position: "fixed", color: "white", margin: "auto", textAlign: "center" }}>
                 <Typography className={"font"} variant="h1">About me</Typography>
                 <p className={"font"}>Im a beginner in this world, my main goal now is gain experience by working and testing with a lot of languages,frameworks, etc.</p>
-                <div style={{ width: "100%", height: "100%", textAlign: "center", marginTop: 8, borderRadius: "6px" }}>
+                <div style={{ width: "100%", height: "100%", textAlign: "center", marginTop: 8, borderRadius: "6px",fontSize : 20 }}>
                     <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                         <Grid item xs={2} sm={4} md={4}>
                             <CoPresentIcon /> <br />
@@ -54,13 +54,16 @@ const About = () => {
                 <p className={"description"}>These are the technologies i normaly use:</p>
                 <div className={"grid"} style={{ margin: "auto" }}>
                     <div className={"card"}>
-                        <Image alt="" src={"/assets/react.png"} width={100} height={100}></Image>
+                        <Image alt="" src={"/assets/react.png"} width={"100%"} height={100}></Image>
                     </div>
                     <div className={"card"}>
                         <Image alt="" src={"/assets/node.png"} width={100} height={100}></Image>
                     </div>
                     <div className={"card"}>
                         <Image alt="" src={"/assets/mongo.png"} width={100} height={100}></Image>
+                    </div>
+                    <div className={"card"}>
+                        <Image alt="" src={"/assets/docker.png"} width={100} height={100}></Image>
                     </div>
                 </div>
             </div>

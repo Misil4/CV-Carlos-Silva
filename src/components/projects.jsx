@@ -37,7 +37,7 @@ const Projects = () => {
                         <Grid item xs={2} sm={3} md={3}>
                             <Typography variant="h5" component="div" className="project_title">Ballin</Typography>
                             <div className="image">
-                                <Image alt="" src="https://github.com/Misil4/2122-E4P1/blob/main/assets/logo.jpg?raw=true" onClick={() => window.location = "https://drive.google.com/file/d/1HfMBPRiKrWvHfWtKRYsezWuNQYnzkPy5/view?usp=sharing"} width="200px" height="200px" />
+                                <Image alt="" src="https://github.com/Misil4/2122-E4P1/blob/main/assets/logo.jpg?raw=true" onClick={() => window.location = "https://drive.google.com/file/d/1HfMBPRiKrWvHfWtKRYsezWuNQYnzkPy5/view?usp=sharing"} width="100%" height="200px" />
                             </div>
                             <p className="project_title">Android app for natural park management made with React Native, MongoDB, NodeJS and Socket.io</p>
                         </Grid>

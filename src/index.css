@@ -1,5 +1,4 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -17,7 +16,7 @@
 @font-face {
   font-family: "InYourFaceJoffrey";
   src: local("InYourFaceJoffrey"),
-   url("../fonts/In_your_face_joffrey.ttf") format("truetype");
+   url("./fonts/In_your_face_joffrey.ttf") format("truetype");
   font-weight: bold;
   }
 a {
@@ -28,13 +27,16 @@ a {
 a:hover {
   color: #535bf2;
 }
-
+*{
+  font-family: "InYourFaceJoffrey" !important;
+}
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "InYourFaceJoffrey" !important;
 }
 
 h1 {
